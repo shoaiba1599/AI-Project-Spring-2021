@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
 
     android.hardware.Camera camera;
     FrameLayout frameLayout;
-    ShowCamera showCamera;
+    ShowCamera showCamera5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
