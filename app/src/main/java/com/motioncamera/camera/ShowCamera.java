@@ -37,6 +37,7 @@ public class ShowCamera extends SurfaceView implements SurfaceHolder.Callback {
         Camera.Parameters params = camera.getParameters();
 
         // change orientation if the camera
+        //shoaib
 
         if (this.getResources().getConfiguration().orientation!= Configuration.ORIENTATION_LANDSCAPE)
         {
