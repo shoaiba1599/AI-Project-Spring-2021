@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
                 if (percent > 10) {
                     try {
                         Thread.sleep(1000);
-                        Toast.makeText(MainActivity.this, "Image Changed", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, "Detect Motion", Toast.LENGTH_SHORT).show();
                         imageInBytes = data;
                     } catch (InterruptedException e) {
                         e.printStackTrace();
