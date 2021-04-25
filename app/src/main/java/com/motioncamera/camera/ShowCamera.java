@@ -20,6 +20,13 @@ public class ShowCamera extends SurfaceView implements SurfaceHolder.Callback {
     Camera camera;
     SurfaceHolder holder;
 
+    public ShowCamera(Context context, Camera camera) {
+        super(context);
+        this.camera = camera;
+        holder = getHolder();
+        holder.addCallback(this);
+    }
+
     @Override
     public void surfaceChanged(@NonNull SurfaceHolder mHolder, int format, int width, int height) {
         Log.d("Function", "surfaceChanged iniciado");
