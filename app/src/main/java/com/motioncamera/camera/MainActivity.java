@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
                         diff += pixelDiff(img1.getColor(x, y).toArgb(), img2.getColor(x, y).toArgb());
                     }
                 }
+                //Check
                 long maxDiff = 3L * 255 * width * height;
                 double percent = 100.0 * diff / maxDiff;
                 ;
